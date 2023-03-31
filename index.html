@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light ON?OFFS</title>
+    <script src="script.js" defer></script>
+    <style>
+        :root{
+            --primary-color: white;
+            --secondary-color: Green;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: var(--primary-color);
+        }
+        #image-off{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+        #btn{
+            height: 60px;
+            width: 80px;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <img src="images/Light Off.svg" class="image-off" id="image-off" alt="Bulb off image is there">
+    <button id="btn">Turn ON</button>
+</body>
+</html>
