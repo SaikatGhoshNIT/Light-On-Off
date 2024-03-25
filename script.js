@@ -16,6 +16,5 @@ button.addEventListener('click', e=>{
         image.src="images/Light Off.svg"
         button.textContent="Turn ON"
         button.style.backgroundColor = "green"
-        
     }  
 })
